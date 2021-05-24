@@ -1,0 +1,25 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+body, h1, h2, h3, h4, h5, h6 {
+    color: #23273c;
+    font-family: "IBM Plex Serif",Georgia,sans-serif;
+}
+
+p {
+font-family: "Lora","Times New Roman",serif;
+font-size: 1.15rem;
+color: #656776;
+}
+
+h2 {
+    font-family: "Inconsolata","Source Code Pro","Courier New",monospace;
+    color: #656776;
+    font-size: 1.35rem;
+}
+
+.code p {
+font-family: "Inconsolata","Source Code Pro","Courier New",monospace;
+}
