@@ -1,0 +1,113 @@
+
+
+section {
+  padding: 8% 0;
+}
+
+h2 {
+  margin-bottom: 1em;
+  border-top: 2px;
+  border-top-color: #bdc3c7;
+}
+
+#dot-nav{
+  position: fixed;
+  right: 10px;
+  top: 50%;
+  height: 100px;
+  z-index: 999;
+}
+#dot-nav ul {
+  list-style: none;
+  margin:0;
+  padding: 0;
+}
+#dot-nav li {
+  position: relative;
+  background-color: #bdc3c7;
+  border:3px solid #bdc3c7;
+  border-radius: 15px 15px 15px 15px;
+  cursor: pointer;
+  padding: 5px;
+  height: 10px;
+  margin: 10px 10px 0px 0px;
+  width: 10px;
+  vertical-align:bottom;
+}
+#dot-nav li.active, #dot-nav li:hover {
+  background-color: #d63384;
+}
+#dot-nav a {
+  outline: 0;
+  vertical-align:top;
+  margin: 0px 0px 0px 25px;
+  position: relative;
+  top:-5px;
+}
+
+.greeting {
+  font-family: "Pacifico";
+  color: #d63384;
+}
+
+
+
+#background1 {
+  background-image: url(../i/background1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 40vh;
+  padding:0;
+  margin:0;
+}
+
+#background2 {
+  background-image: url(../i/background2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 40vh;
+  padding:0;
+  margin:0;
+}
+
+
+.social {
+  padding-right: 10%;
+}
+
+.social li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #f8f9fa;
+}
+
+a:hover {
+  color: #d63384;
+}
+
+.social a {
+  text-decoration: none;
+  font-weight: 100;
+  color: #d63384;
+}
+
+.social a:hover {
+  color: #bdc3c7;
+}
+
+#publications p{
+  font-size: 85%;
+  margin-bottom: .3rem;
+}
+
+.emphesis {
+  color: #d63384;
+}
+
+.insta-feed {
+    display:  inline-block;
+    min-height: 300px;
+}
