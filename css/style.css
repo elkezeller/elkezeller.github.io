@@ -1,5 +1,3 @@
-
-
 section {
   padding: 8% 0;
 }
@@ -49,6 +47,50 @@ h2 {
   top:-5px;
 }
 
+.link-unstyled {
+  &,
+  &:visited,
+  &:hover,
+  &:active,
+  &:focus,
+  &:active:hover {
+    font-style: inherit;
+    color: inherit;
+    background-color: transparent;
+    font-size: inherit;
+    text-decoration: none;
+    font-variant: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    font-family: inherit;
+    border-radius: inherit;
+    border: inherit;
+    outline: inherit;
+    box-shadow: inherit;
+    padding: inherit;
+    vertical-align: inherit;
+  }
+}
+
+
+.on-hover {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.col:hover .on-hover {
+  opacity: 1;
+}
+
+
 .greeting {
   font-family: "Pacifico";
   color: #d63384;
@@ -60,8 +102,8 @@ h2 {
   background-image: url(../i/background1.jpg);
   background-size: cover;
   background-attachment: fixed;
-  min-height: 40vh;
-  max-width: 100vw;
+  height: 40vh;
+  width: 100vw;
   padding:0;
   margin:0;
 }
@@ -70,8 +112,8 @@ h2 {
   background-image: url(../i/background2.jpg);
   background-size: cover;
   background-attachment: fixed;
-  min-height: 40vh;
-  max-width: 100vw;
+  height: 40vh;
+  width: 100vw;
   padding:0;
   margin:0;
 }
