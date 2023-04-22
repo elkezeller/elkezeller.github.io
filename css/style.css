@@ -92,6 +92,14 @@ h2 {
 
 .greeting {
   font-family: "Pacifico";
+}
+
+.greeting-2 {
+  font-family: "Libre+Baskerville";
+  font-variant: small-caps;
+}
+
+.pink {
   color: #d63384;
 }
 
