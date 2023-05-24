@@ -90,11 +90,11 @@ h2 {
 
 
 
-.greeting {
+h1, h2, h3 {
   font-family: "Pacifico";
 }
 
-.greeting-2 {
+.caps {
   font-family: "Libre+Baskerville";
   font-variant: small-caps;
 }
