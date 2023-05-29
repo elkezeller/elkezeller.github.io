@@ -94,6 +94,10 @@ h1, h2, h3 {
   font-family: "Pacifico";
 }
 
+.display-6 {
+  font-size: 2rem;
+}
+
 .caps {
   font-family: "Libre+Baskerville";
   font-variant: small-caps;
