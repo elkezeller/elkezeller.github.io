@@ -1,17 +1,23 @@
+.scrollspy-content {
+  height: 100vh; /* Fill screen height */
+  overflow-y: auto; /* Enable scrolling inside */
+  position: relative; /* Required for scrollspy */
+  padding: 1rem;
+}
+
 body {
   background-color: #F8FCFA;
-  color: #343a40;
   width: 100%;
   height: 100vh;
   margin: 0;
   padding: 0;
-  font-family: stolzl, Montserrat, sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-weight: 200;
 }
 
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
-  font-weight: 600;
-  font-family: serenity, serif;
+  font-weight: 300;
+  font-family: "Noto Sans", sans-serif;
 }
 
 h1, .h1 {
@@ -52,14 +58,11 @@ section {
 }
 
 nav {
-  font-weight: 500;
+  font-weight: 700;
 }
 
 footer {
   font-size: 0.8rem;
-}
-footer a {
-  color: #343a40;
 }
 footer a:hover {
   text-decoration: underline;
@@ -72,6 +75,10 @@ footer a:hover {
 
 .primary-color {
   color: #EE4C7C;
+}
+
+.text-bold {
+  font-weight: 700;
 }
 
 .text-color {
@@ -95,12 +102,56 @@ footer a:hover {
   color: #EE4C7C;
 }
 
+.active {
+  text-decoration: none;
+}
+.active:hover {
+  text-decoration: underline;
+  color: #EE4C7C;
+}
+
 .text-small {
   font-size: 0.9rem;
 }
 
 .highlighted {
-  font-weight: 300;
+  font-weight: 400;
+}
+
+.text-serif {
+  font-family: "Noto Serif", serif;
+}
+
+.background1 {
+  background-image: url(/assets/images/background1.jpg);
+}
+
+.background2 {
+  background-image: url(/assets/images/background2.jpg);
+}
+
+.background3 {
+  background-image: url(/assets/images/background3.jpg);
+}
+
+.background-static {
+  background-size: cover;
+  background-attachment: fixed;
+  align-items: center;
+  justify-content: center;
+  height: 30vh;
+  width: 100%;
+  display: flex;
+}
+
+.ol-week {
+  counter-reset: item;
+  list-style-type: none;
+}
+.ol-week li:before {
+  content: "Week " counter(item, decimal) ". ";
+  counter-increment: item;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=main.css.map */
